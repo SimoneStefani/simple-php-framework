@@ -1,7 +1,3 @@
 <?php
 
-$query = require 'bootstrap.php';
-
-$tasks = $query->selectAll('todos');
-
-require 'index.view.php';
+$database = require 'core/bootstrap.php';
